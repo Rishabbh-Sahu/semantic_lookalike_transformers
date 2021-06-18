@@ -18,7 +18,7 @@ python semantic_lookalike_transformer.py --config_file_path=config.yaml
 - To find unique semantic patterns exist in the corpus 
 - For labeling un-tagged data based on targeted sentence   
 
-#### Output example: 
+#### Output example (top 5 lookalike sentences based on semantic similarity): 
 **Sentence to vector dimension : 128** <br> 
 Targeted sentence index : 2841 <br>
 Targeted sentence : [' i want to fly from boston to denver with a stop in philadelphia'] <br>
