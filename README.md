@@ -10,7 +10,7 @@ To generate sent2vec, I've used transformer based model (BERT in this scenario).
 - Open config.yaml file and modify parameters as per your setup
 
 #### For finding semantic look alike sentences
-Run below cmd from the python terminal - <br> 
+Run below cmd from the python terminal: <br> 
 python semantic_lookalike_transformer.py --config_file_path=config.yaml 
 
 
