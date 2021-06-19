@@ -2,7 +2,7 @@
 This repo enable us to find look alike sentences leveraging sent2vec concept.
 
 #### How it works:
-Most of the pre-trained language models learn a lot of common lanugage understanding that exists in the corpora. This way, sub-words embeddings would align themselves to learn semantics based on the given context in the sentence. An extension to this is to generate sentence vectors (build up from tokens of the sentence) aka sent2vec from the transformer's(BERT in this scenario) as a numeric representation of this semantic relationship. Now, 
+Most of the pre-trained language models learn a lot of common lanugage understanding that exists in the corpora. This way, sub-words embeddings would align themselves to learn semantics based on the given context in the sentence. An extension to this is to generate sentence vectors (build up from tokens of the sentence) aka sent2vec from the transformer's(BERT in this scenario) as a numeric representation of this semantic relationship. Now, given two vectors, we can find the similarity using cosine similarity. 
  
 #### Getting started
 - create virtual environment
@@ -13,6 +13,10 @@ Most of the pre-trained language models learn a lot of common lanugage understan
 Run below cmd from the python terminal: <br> 
 python semantic_lookalike_transformer.py --config_file_path=config.yaml 
 
+#### Semantic similarity vs. tf-idf text vectorization
+1. Best representation of a sentence based on the context and words relationship which can not be achieved using tf-idf (does not consider word orders for example)
+2. tf-idf might not be able to generate a proper vector if the sentence have way too many out of vacob words while transformers outperformed most of the text vectorization on this aspect.
+3. Sentences (search space) need not to have same words to be identified as lookalike ones to the targeted sentence.  
 
 #### Where to use:
 - To find unique semantic patterns exist in the corpus 
