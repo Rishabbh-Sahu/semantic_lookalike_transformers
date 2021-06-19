@@ -2,7 +2,7 @@
 This repo enable us to find look alike sentences leveraging sent2vec concept.
 
 #### How it works:
-To generate sent2vec, I've used transformer based model (BERT in this scenario).  
+Most of the pre-trained language models learn a lot of common lanugage understanding that exists in the corpora. This way, sub-words embeddings would align themselves to learn semantics based on the given context in the sentence. An extension to this is to generate sent2vec, I've used transformer based model (BERT in this scenario).
  
 #### Getting started
 - create virtual environment
