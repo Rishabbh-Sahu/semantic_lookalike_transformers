@@ -9,7 +9,7 @@ Most of the pre-trained language models learn a lot of common lanugage understan
 - install requirements 
 - Open config.yaml file and modify parameters as per your setup
 
-#### For finding semantic look alike sentences
+#### Getting semantic look alike sentences
 Run below cmd from the python terminal: <br> 
 python semantic_lookalike_transformer.py --config_file_path=config.yaml 
 
