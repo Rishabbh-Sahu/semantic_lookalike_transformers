@@ -33,7 +33,7 @@ Targeted sentence index : 2841 <br>
 3: i want a flight on twa from boston to denver <br>
 4: i need to go to san diego from toronto but i want to stopover in denver<br>
 
-Note: This output will change based on the targeted sentence     
+Note: This output will vary based on the targeted sentence     
 
 #### References:
 Kinldy download the data from the below link - <br>
