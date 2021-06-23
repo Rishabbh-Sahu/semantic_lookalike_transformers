@@ -23,8 +23,8 @@ python semantic_lookalike_transformer.py --config_file_path=config.yaml
 - For labeling un-tagged data based on targeted sentence   
 
 #### Output example (top 5 lookalike sentences based on semantic similarity): 
-**Sentence to vector dimension : 128** <br> 
-Targeted sentence index : 2841 <br>
+**Sentence to vector dimension : 128** (Try to increase this dims to get even better results)<br> 
+Targeted sentence index : 2841 (A random index) <br>
 **Targeted sentence :** [*'i want to fly from boston to denver with a stop in philadelphia'*] <br>
 **Top 5 semantic similar sentences are :** <br>
 0 : i want to fly from boston to denver with a stop in philadelphia <br>
