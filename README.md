@@ -18,7 +18,7 @@ python semantic_lookalike_transformer.py --config_file_path=config.yaml
 2. Tf-idf might not be able to generate a proper vector if the sentence have way too many out of vacob words while transformers outperformed most of the text vectorization on this aspect.
 3. Sentences (search space) need not to have same words to be identified as lookalike ones to the targeted sentence.  
 
-#### Where to use:
+#### Where to use
 - To find unique semantic patterns exist in the corpus 
 - For labeling un-tagged data based on targeted sentence   
 
