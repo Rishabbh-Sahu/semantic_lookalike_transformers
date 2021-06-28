@@ -1,7 +1,7 @@
 # Semantic lookalike using Transformers
 This repo enable us to find look alike sentences leveraging sent2vec concept.
 
-#### How it works:
+#### How it works
 Most of the pre-trained language models learn a lot of common lanugage understanding that exists in the corpora. This way, sub-words embeddings would align themselves to learn semantics based on the given context in the sentence. An extension to this is to generate sentence vectors (build up from tokens of the sentence) aka sent2vec from the transformer's(BERT in this scenario) as a numeric representation of this semantic relationship. Now, given two vectors, we can find the similarity using cosine similarity. 
  
 #### Getting started
