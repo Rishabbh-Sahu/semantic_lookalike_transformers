@@ -35,7 +35,7 @@ Targeted sentence index : 2841 (A random index) <br>
 
 Note: This output will vary based on the targeted sentence     
 
-#### Further improvement:
+#### Further improvement
 Increase the dimension of transformer embedding layer (currently 128) to learn more language representation hence more close/better look alike sentences. Kindly try 256, 512 or 768 embedding dims in order to increase the overall performance. 
 
 #### References:
