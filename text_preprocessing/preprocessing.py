@@ -24,7 +24,7 @@ def text_to_word_list(sentences):
     '''
     Huggingface Fast tokenizer accepts input as [['word1','word2'....'wordn']]
     Parameters-
-    input: sentences as stream of words 
+    input: original form of sentences 
     return: sentences split into words by whitespace 
     '''
     return [s.split() for s in sentences]
