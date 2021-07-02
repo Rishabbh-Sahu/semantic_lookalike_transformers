@@ -28,7 +28,7 @@ print(f"Number of cols: {df.shape[1]} are {', '.join(df.columns)}")
 
 sentences = df['query'].tolist()
 
-# randomly select one sentence from the input data as targeted sentences
+# randomly select one sentence from the input data as targeted sentence
 # We will try to find semantic look alike sentences for this targeted sentence
 target_sentence_index = random.sample(range(0,len(sentences)),1)[0]
 target_sentence = sentences[target_sentence_index:target_sentence_index+1]
