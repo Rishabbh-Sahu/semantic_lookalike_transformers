@@ -16,6 +16,7 @@ class Reader:
             return yaml.load(fp, Loader=yaml.SafeLoader)
 
     def read_dataframes(filepath:str,header=None):
+        '''Reading input data from csv'''
         import pandas
         return pandas.read_csv(filepath,header=header,skip_blank_lines=True)
 
