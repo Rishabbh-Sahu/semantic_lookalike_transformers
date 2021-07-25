@@ -21,6 +21,7 @@ python semantic_lookalike_transformer.py --config_file_path=config.yaml
 #### Where to use
 - To find unique semantic patterns exist in the corpus 
 - For labeling un-tagged data based on targeted sentence   
+- To find similar documents or articles
 
 #### Output example (top 5 lookalike sentences based on semantic similarity)
 **Sentence to vector dimension : 128** (Try to increase this dims by trying different BERT configuration, to get even better results for longer sentences)<br> 
