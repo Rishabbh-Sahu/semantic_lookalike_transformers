@@ -5,7 +5,7 @@ Created on tuesday 17-June-2021
 """
 
 import numpy
-import argparse  ## this will allow us to send the arguments to this script
+import argparse  ## this will allow us to send the arguments to this script from the command line
 from readers.reader import Reader
 import random
 from sklearn.metrics.pairwise import cosine_similarity
