@@ -28,12 +28,13 @@ python semantic_lookalike_transformer.py --config_file_path=config.yaml
 Targeted sentence index : 2841 (A random index) <br>
 **Targeted sentence :** [*'i want to fly from boston to denver with a stop in philadelphia'*] <br>
 **Top 5 semantic similar sentences are :** <br>
+#----------------------------------------------------------------------------------------------#<br>
 0 : i want to fly from boston to denver with a stop in philadelphia <br>
 1 : i want to fly from philadelphia to dallas and make a stopover in atlanta <br>
 2 : i want a flight originating in denver going to pittsburgh and atlanta in either order <br>
 3 : i want a flight on twa from boston to denver <br>
 4 : i need to go to san diego from toronto but i want to stopover in denver<br>
-
+#----------------------------------------------------------------------------------------------#<br>
 Note: This output will vary based on the targeted sentence     
 
 #### Further improvement
