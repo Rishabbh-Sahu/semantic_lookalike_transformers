@@ -27,7 +27,7 @@ python semantic_lookalike_transformer.py --config_file_path=config.yaml
 **Sentence to vector dimension : 128** (Try to increase this dims by trying different BERT configuration, to get even better results for longer sentences)<br> 
 Targeted sentence index : 2841 (A random index) <br>
 **Targeted sentence :** [***'i want to fly from boston to denver with a stop in philadelphia'***] <br>
-**Top 5 semantic similar sentences are :** <br>
+**Top 5** semantic similar sentences are : <br>
 #----------------------------------------------------------------------------------------------#<br>
 0 : i want to fly from boston to denver with a stop in philadelphia <br>
 1 : i want to fly from philadelphia to dallas and make a stopover in atlanta <br>
