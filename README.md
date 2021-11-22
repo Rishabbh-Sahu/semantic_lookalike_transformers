@@ -39,7 +39,7 @@ Note: This output will vary based on the targeted sentence (for which you need t
 
 #### Further improvement
 - Increase the dimension of transformer embedding layer (currently 128) to learn more language representation hence more close/better look-alike sentences. Try 256, 512 or 768 embedding dims, in order to increase the overall performance. 
-- **flairNLP** provides good ways to create sentence/document level embeddings with the flexibility to pick glove, gensim and flair embeddings or stacking them over and then learn sentence/document level embeddings using pool/RNN methods. There are four main document embeddings in Flair (https://github.com/flairNLP/flair):
+- **flairNLP** provides good ways to create sentence/document level embeddings with the flexibility to pick glove, gensim and flair embeddings (or stack them) and then learn sentence/document level embeddings using pool/RNN methods. There are four main document embeddings in Flair (https://github.com/flairNLP/flair):
   1) DocumentPoolEmbeddings that simply do an average over all word embeddings in the sentence
   2) DocumentRNNEmbeddings that train an RNN over all word embeddings in a sentence
   3) TransformerDocumentEmbeddings that use pre-trained transformers and are recommended for most text classification tasks
