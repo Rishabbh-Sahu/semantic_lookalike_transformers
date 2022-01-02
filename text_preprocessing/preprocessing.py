@@ -16,7 +16,7 @@ def remove_punctuations(txt_arr):
     '''
     data cleansing in order to remove various punctuations exits in the file
     txt_arr: list [] - [[sequence of text1],[sequence of text2]...]
-    return: cleaned text without the specified punctuations
+    return: cleaned text without specified punctuations
     '''
     return txt_arr
 
