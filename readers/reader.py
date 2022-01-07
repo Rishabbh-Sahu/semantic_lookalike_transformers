@@ -7,7 +7,7 @@ import os
 import yaml
 
 class Reader:
-    
+    ''' This class helps reading different file types like csv, yaml etc.'''
     def __init__(self):
         pass
 
