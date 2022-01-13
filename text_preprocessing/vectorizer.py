@@ -7,7 +7,7 @@ class TRANSFORMER(object):
 
     def __init__(self,transformer_model_path,max_seq_length,transformer_model_name='bert-base-uncased'):
         '''
-        transformer_model_path: tensorflow-hub path to download transformer based model like bert, albert etc.
+        transformer_model_path: tensorflow-hub path, to download transformer based model like bert, albert etc.
         max_seq_length: int - maximum number of tokens to keep in a sequence
         '''
         from transformers import BertTokenizerFast
