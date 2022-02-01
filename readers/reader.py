@@ -22,7 +22,7 @@ class Reader:
 
 
     def read(dataset_folder_path):
-        
+        '''Create the format used by NER models in general'''
         labels = None
         text_arr = None
         tags_arr = None
