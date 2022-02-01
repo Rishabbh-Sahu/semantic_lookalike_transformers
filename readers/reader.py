@@ -22,9 +22,11 @@ class Reader:
 
 
     def read(dataset_folder_path):
+        
         labels = None
         text_arr = None
         tags_arr = None
+        
         with open(os.path.join(dataset_folder_path, 'label'), encoding='utf-8') as f:
             labels = f.read().splitlines()
         
