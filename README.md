@@ -14,7 +14,7 @@ Run below cmd from the python terminal: <br>
 python semantic_lookalike_transformer.py --config_file_path=config.yaml 
 
 #### Semantic similarity vs. Tf-idf text vectorization
-1. Best representation of a sentence based on the context and words relationship which can not be achieved using tf-idf (does not consider word orders for example)
+1. The best representation of a sentence based on the context and words relationship which can not be achieved with tf-idf (does not consider words order for example)
 2. Tf-idf might not be able to generate a proper vector if the sentence have way too many out of vacob words while transformers outperformed most of the text vectorization on this aspect.
 3. Sentences (search space) need not to have same words to be identified as lookalike ones to the targeted sentence.  
 
