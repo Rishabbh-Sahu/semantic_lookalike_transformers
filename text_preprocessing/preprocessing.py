@@ -6,7 +6,6 @@
 def remove_next_line(txt_arr):
     '''
     data cleansing in order to remove next line symbol may arise while reading the file
-
     txt_arr: list [] - [[sequence of text1],[sequence of text2]...]
     return: cleaned text without next line '\n' char
     '''
