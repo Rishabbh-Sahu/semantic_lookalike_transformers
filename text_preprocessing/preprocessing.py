@@ -27,6 +27,3 @@ def text_to_word_list(sentences):
     return: sentences split into words by whitespace 
     '''
     return [s.split() for s in sentences]
-
-
-
