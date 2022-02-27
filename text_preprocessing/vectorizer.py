@@ -10,6 +10,7 @@ class TRANSFORMER(object):
         transformer_model_path: tensorflow-hub path, to download transformer based model like bert, albert etc.
         max_seq_length: int - maximum number of tokens to keep in a sequence
         '''
+        # Importing Bert model from Huggingface library 
         from transformers import BertTokenizerFast
         import tensorflow_hub as hub
         super(TRANSFORMER,self).__init__()
