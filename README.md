@@ -5,7 +5,7 @@ This repo enable us to find look-alike(closest) sentences leveraging **sent2vec*
 Most of the pre-trained language models learn a lot of "common lanugage understanding" that exists in the corpora. This way, sub-words embeddings would align themselves to learn semantics based on the given **context in the sentence**. An extension to this is to generate **sentence-vectors (by leveraging tokens of the sentence) a.k.a. 'sent2vec' from the transformer's(BERT** in this scenario) as a numeric representation of this semantic relationship. Now, given two vectors, we can find the similarity using cosine-similarity to show 'how *semantically* similar they are'. 
  
 #### Getting started
-- Create virtual environment
+- Create virtual environment (follow https://github.com/Rishabbh-Sahu/extractive_summarization#follow-the-instructions-below)
 - Install requirements 
 - Open config.yaml file and modify parameters as per your setup
 
