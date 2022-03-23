@@ -20,10 +20,10 @@ def remove_punctuations(txt_arr):
     return txt_arr
 
 def text_to_word_list(sentences):
-    '''
+    """
     Huggingface Fast tokenizer accepts input as [['word1','word2'....'wordn']]
     Parameters-
     input: original form of sentences 
     return: sentences split into words by whitespace 
-    '''
+    """
     return [s.split() for s in sentences]
