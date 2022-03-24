@@ -23,7 +23,7 @@ class TRANSFORMER(object):
         print(f'model - {self.transformer_model_path} successfully loaded..')
 
     def create_transformer_input(self,encodings):
-        '''create numpy array as the transformer input from the transformer's encoded object'''
+        """create numpy array as the transformer input from the transformer's encoded object"""
         import numpy as np
         return {'input_word_ids': np.array(encodings.input_ids),
                 'input_mask': np.array(encodings.attention_mask),
