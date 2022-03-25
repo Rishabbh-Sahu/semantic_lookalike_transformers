@@ -31,7 +31,10 @@ class TRANSFORMER(object):
                 }
 
     def sentenceToVector(self,sentences):
-        '''generate sentence vector using transformer's pooled output. This output is normally being used further for sentence level classification tasks'''
+        """
+        Generate sentence vector using transformer's pooled output. This output is normally being 
+        used further for sentence level classification tasks
+        """
         encondings = self.fastTokenizer(sentences, is_split_into_words=True, max_length=self.max_seq_length, padding=True,
                                       return_offsets_mapping=True, truncation=True)
         sent_input_to_transformers = self.create_transformer_input(encondings)
