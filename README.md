@@ -1,4 +1,4 @@
-# Semantic lookalike using Transformers
+#  <p align="center"> Semantic lookalike using Transformers </p>
 This repo enable us to find look-alike(closest) sentences leveraging **sent2vec** concept.
 
 #### How it works
