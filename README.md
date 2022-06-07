@@ -10,8 +10,10 @@ Most of the pre-trained language models learn a lot of "common lanugage understa
 - Open config.yaml file and modify parameters as per your setup
 
 #### Getting semantic look alike sentences
-Run below cmd from the python terminal: <br> 
+Run below command from the python terminal: <br> 
+```
 python semantic_lookalike_transformer.py --config_file_path=config.yaml 
+```
 
 #### Semantic similarity vs. Tf-idf text vectorization
 1. The best representation of a sentence based on the context and words relationship which can not be achieved with tf-idf (does not consider words order for example)
