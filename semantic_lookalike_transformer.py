@@ -52,4 +52,4 @@ print(f'Sentence to vector dimension : {len(target_sentence_vector[0])}')
 print(f'Targeted sentence index : {target_sentence_index}')
 print(f"Targeted sentence : {target_sentence}")
 print(f"Top {config['top_k_similar_sentences']} semantic similar sentences are : ")
-_ = [print(f"{i}:{sentences[idx]}",sep='\n') for i, idx in enumerate(most_similar_sent_indices)]
+_ = [print(f"{i}:{sentences[idx]}",sep="\n") for i, idx in enumerate(most_similar_sent_indices)]
