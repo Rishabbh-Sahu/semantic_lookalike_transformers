@@ -46,7 +46,7 @@ sentences_vectors = transformer.sentenceToVector(sentences_as_words_list)
 
 # Angular distance using consine similarity to identify similar sentences placed near by into n-dim space
 cosine_similarities = cosine_similarity(target_sentence_vector,sentences_vectors).flatten()
-most_similar_sent_indices = numpy.argsort(cosine_similarities, axis=0)[:-config['top_k_similar_sentences']-1:-1]
+most_similar_sent_indices = numpy.argsort(cosine_similarities, axis=0)[:-config["top_k_similar_sentences"]-1:-1]
 
 print(f'Sentence to vector dimension : {len(target_sentence_vector[0])}')
 print(f'Targeted sentence index : {target_sentence_index}')
