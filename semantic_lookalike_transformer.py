@@ -34,7 +34,7 @@ target_sentence_index = random.sample(range(0,len(sentences)),1)[0]
 target_sentence = sentences[target_sentence_index:target_sentence_index+1]
 
 # Instantiate transformer 
-transformer = TRANSFORMER(transformer_model_path=config['model_path'],
+transformer = TRANSFORMER(transformer_model_path=config["model_path"],
                           max_seq_length=config['MAX_SEQ_LEN'],
                           transformer_model_name=config['model_name'])
 
