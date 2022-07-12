@@ -20,7 +20,7 @@ args = parser.parse_args()
 config = {}
 config.update(Reader.read_yaml_from_file(args.config_file_path))
 
-print('read data ...')
+print("read data ...")
 df = Reader.read_dataframes(config['data_path'])
 df.columns = ['intent','query']
 print(f"Number of records: {df.shape[0]}")
