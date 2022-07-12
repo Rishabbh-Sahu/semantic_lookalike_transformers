@@ -21,7 +21,7 @@ config = {}
 config.update(Reader.read_yaml_from_file(args.config_file_path))
 
 print("read data ...")
-df = Reader.read_dataframes(config['data_path'])
+df = Reader.read_dataframes(config["data_path"])
 df.columns = ['intent','query']
 print(f"Number of records: {df.shape[0]}")
 print(f"Number of cols: {df.shape[1]} are {', '.join(df.columns)}")
