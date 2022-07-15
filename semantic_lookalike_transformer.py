@@ -13,7 +13,7 @@ from text_preprocessing.vectorizer import TRANSFORMER
 from text_preprocessing import preprocessing
 
 # read command-line parameters
-parser = argparse.ArgumentParser('Semantic similarity using sent2vec')
+parser = argparse.ArgumentParser("Semantic similarity using sent2vec")
 parser.add_argument('--config_file_path', '-c', help = 'Path to the config file', type = str, required = True)
 args = parser.parse_args()
 
