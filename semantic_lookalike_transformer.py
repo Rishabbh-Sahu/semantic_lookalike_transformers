@@ -37,7 +37,7 @@ target_sentence = sentences[target_sentence_index:target_sentence_index+1]
 transformer = TRANSFORMER(transformer_model_path=config["model_path"],
                           max_seq_length=config["MAX_SEQ_LEN"],
                           transformer_model_name=config["model_name"])
-# Pre-process text
+# Pre-process the text
 sentences_as_words_list = preprocessing.text_to_word_list(sentences)
 target_sentence_words_list = sentences_as_words_list[target_sentence_index:target_sentence_index+1]
 
